@@ -52,7 +52,7 @@ function onListening() {
 
 // server
 const server = http.createServer(app);
-server.listen(port);
+server.listen(process.env.PORT || 3000);
 server.on('error', onError);
 server.on('listening', onListening);
 console.log(`API is alive on ${port}!`);
