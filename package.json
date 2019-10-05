@@ -2,12 +2,13 @@
   "name": "node",
   "version": "1.0.0",
   "description": "",
-  "main": "bin/server.js",
+  "main": "..bin/server.js",
    "keywords": [],
   "author": "",
   "license": "ISC",
   "scripts": {
-    "dev": "node node_modules/nodemon/bin/nodemon bin/server"
+    "dev": "node node_modules/nodemon/bin/nodemon bin/server",
+    "gcp-build": "node node_modules/nodemon/bin/nodemon bin/server"
 },
   "dependencies": {
     "debug": "^4.1.1",
