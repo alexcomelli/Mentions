@@ -8,7 +8,7 @@
   "license": "ISC",
   "scripts": {
     "dev": "node node_modules/nodemon/bin/nodemon bin/server",
-    "start": "node bin/server.js"
+    "start": "bin/server.js"
 },
   "dependencies": {
     "debug": "^4.1.1",
